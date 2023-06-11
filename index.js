@@ -3,6 +3,8 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import cors from "cors";
 
+import CryptoJS from "crypto-js";
+
 import userRoute from "./routes/user.js";
 import authRoute from "./routes/auth.js";
 import productRoute from "./routes/product.js";
